@@ -1,13 +1,12 @@
 pipeline {
 
     agent any
-/*
 	tools {
         maven "maven3"
     }
-*/
+
     environment {
-        registry = "kubeimran/vproappdock"
+        registry = "thnnathat/vproappdock"
         registryCredential = 'dockerhub'
     }
 
